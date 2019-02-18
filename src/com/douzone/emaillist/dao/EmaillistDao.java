@@ -1,4 +1,4 @@
-package com.douzon.emaillist.dao;
+package com.douzone.emaillist.dao;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -8,7 +8,7 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.douzon.emaillist.vo.EmaillistVo;
+import com.douzone.emaillist.vo.EmaillistVo;
 
 public class EmaillistDao {
 	public boolean insert(EmaillistVo vo) {
